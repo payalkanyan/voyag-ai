@@ -16,4 +16,3 @@ Simple and intuitive interface built with React and Chakra UI for easy interacti
 ### How it's made
 It is built using Voyager API where we call [this method](https://docs.voyager.online/#get-/txns/-txnHash-) of the API & we then print it on frontend. We used OpenAI's chatgpt & finetuned it for understanding the parsed output & then printing the description of a transaction for anyone to understand.
 
-background image
