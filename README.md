@@ -11,3 +11,9 @@ Use OpenAI's GPT model to analyze the retrieved transaction data and provide ins
 Simple and intuitive interface built with React and Chakra UI for easy interaction.
 #### Error Handling:
  Clear error messages and informative feedback in case of issues.
+
+
+### How it's made
+It is built using Voyager API where we call [this method](https://docs.voyager.online/#get-/txns/-txnHash-) of the API & we then print it on frontend. We used OpenAI's chatgpt & finetuned it for understanding the parsed output & then printing the description of a transaction for anyone to understand.
+
+background image
