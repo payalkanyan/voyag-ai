@@ -14,9 +14,9 @@ const StarkNetComponent = () => {
   const fetchBlock = async () => {
     try {
       const provider = new RpcProvider({
-        nodeUrl: "https://free-rpc.nethermind.io/sepolia-juno/?apikey=s9xjKDnzjR1BaeLhdkE0gBhFlikNBGeQD4nACdDpJrzVuA0h"
+        nodeUrl: "https://free-rpc.nethermind.io/sepolia-juno/?apikey=${API_KEY}"
       });
-      const result = await provider.getBlockWithTxHashes("0x1926fe58c6750d786c352d448f3318e675ab1e866a9a728c66fa873675eb9fd");
+      const result = await provider.getBlockWithTxHashes('${block_hash}');
       setBlock(result);
     } catch (error) {
       console.error('Failed to fetch block:', error);
