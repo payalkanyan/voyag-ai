@@ -49,19 +49,7 @@ export default function Block() {
             <ListItem><strong>Contract Address:</strong> {transactionData.contract_address}</ListItem>
           </UnorderedList>
         </Box>
-        // <Box className={styles.data}>
-        // <Text fontSize="2xl" className="mb-4">Transaction Data:</Text>
-        // <UnorderedList>
-        //   <ListItem>Block Number: 29416</ListItem>
-        //   <ListItem>Index : 127</ListItem>
-        //   <ListItem>Type : Invoke</ListItem>
-        //   <ListItem>Contract Address : 0x025b74dbfb6aec63a080b2477e03a4920fbd89c3ba6adab7cea1afd25f8685f9</ListItem>
-        //   <ListItem>Sender Address : 0x025b74dbfb6aec63a080b2477e03a4920fbd89c3ba6adab7cea1afd25f8685f9</ListItem>
-        //   <ListItem>Time stamp: 29416</ListItem>
-        //   <ListItem> Signature: 0x3aea73a0d8b4d2e780ff235223a290178570147f5910086ea0976a2c302d5d0</ListItem>
-        //   <ListItem>Status: Accepted on L1</ListItem>
-        //   <ListItem>Nonce: 0x1</ListItem>
-          
+        
         </UnorderedList>
       </Box>
       )}
